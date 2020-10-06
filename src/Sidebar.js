@@ -6,6 +6,7 @@ const Sidebar = () => {
       <img src="theindex.svg" className="logo" alt="the index logo" />
       <section>
         <h4 className="menu-item active">
+        <button onClick={props.deselectAuthor}>AUTHORS</button>
           <button>AUTHORS</button>
         </h4>
       </section>
